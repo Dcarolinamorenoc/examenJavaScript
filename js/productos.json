@@ -2,7 +2,7 @@
     {
         "id": "abrigo-01",
         "titulo": "Abrigo 01",
-        "imagen": "../storage/img/abrigos/01.png",
+        "imagen": "./storage/img/abrigos/01.png",
         "categoria": {
             "nombre": "Abrigos",
             "id": "abrigos"
@@ -12,7 +12,7 @@
     {
         "id": "abrigo-02",
         "titulo": "Abrigo 02",
-        "imagen": "../storage/img/abrigos/02.png",
+        "imagen": "./storage/img/abrigos/02.png",
         "categoria": {
             "nombre": "Abrigos",
             "id": "abrigos"
@@ -22,7 +22,7 @@
     {
         "id": "abrigo-03",
         "titulo": "Abrigo 03",
-        "imagen": "../storage/img/abrigos/03.png",
+        "imagen": "./storage/img/abrigos/03.png",
         "categoria": {
             "nombre": "Abrigos",
             "id": "abrigos"
@@ -32,7 +32,7 @@
     {
         "id": "abrigo-04",
         "titulo": "Abrigo 04",
-        "imagen": "../storage/img/abrigos/04.png",
+        "imagen": "./storage/img/abrigos/04.png",
         "categoria": {
             "nombre": "Abrigos",
             "id": "abrigos"
@@ -42,7 +42,7 @@
     {
         "id": "abrigo-05",
         "titulo": "Abrigo 05",
-        "imagen": "../storage/img/abrigos/05.png",
+        "imagen": "./storage/img/abrigos/05.png",
         "categoria": {
             "nombre": "Abrigos",
             "id": "abrigos"
@@ -52,7 +52,7 @@
     {
         "id": "abrigo-06",
         "titulo": "Abrigo 06",
-        "imagen": "../storage/img/abrigos/06.png",
+        "imagen": "./storage/img/abrigos/06.png",
         "categoria": {
             "nombre": "Abrigos",
             "id": "abrigos"
@@ -62,7 +62,7 @@
     {
         "id": "abrigo-07",
         "titulo": "Abrigo 07",
-        "imagen": "../storage/img/abrigos/07.png",
+        "imagen": "./storage/img/abrigos/07.png",
         "categoria": {
             "nombre": "Abrigos",
             "id": "abrigos"
@@ -72,7 +72,7 @@
     {
         "id": "abrigo-08",
         "titulo": "Abrigo 08",
-        "imagen": "../storage/img/abrigos/08.png",
+        "imagen": "./storage/img/abrigos/08.png",
         "categoria": {
             "nombre": "Abrigos",
             "id": "abrigos"
@@ -83,7 +83,7 @@
     {
         "id": "camiseta-01",
         "titulo": "Camiseta 01",
-        "imagen": "../storage/img/camisetas/01.png",
+        "imagen": "./storage/img/camisetas/01.png",
         "categoria": {
             "nombre": "Camisetas",
             "id": "camisetas"
@@ -93,7 +93,7 @@
     {
         "id": "camiseta-02",
         "titulo": "Camiseta 02",
-        "imagen": "../storage/img/camisetas/02.png",
+        "imagen": "./storage/img/camisetas/02.png",
         "categoria": {
             "nombre": "Camisetas",
             "id": "camisetas"
@@ -103,7 +103,7 @@
     {
         "id": "camiseta-03",
         "titulo": "Camiseta 03",
-        "imagen": "../storage/img/camisetas/03.png",
+        "imagen": "./storage/img/camisetas/03.png",
         "categoria": {
             "nombre": "Camisetas",
             "id": "camisetas"
@@ -113,7 +113,7 @@
     {
         "id": "camiseta-04",
         "titulo": "Camiseta 04",
-        "imagen": "../storage/img/camisetas/04.png",
+        "imagen": "./storage/img/camisetas/04.png",
         "categoria": {
             "nombre": "Camisetas",
             "id": "camisetas"
@@ -123,7 +123,7 @@
     {
         "id": "camiseta-05",
         "titulo": "Camiseta 05",
-        "imagen": "../storage/img/camisetas/05.png",
+        "imagen": "./storage/img/camisetas/05.png",
         "categoria": {
             "nombre": "Camisetas",
             "id": "camisetas"
@@ -133,7 +133,7 @@
     {
         "id": "camiseta-06",
         "titulo": "Camiseta 06",
-        "imagen": "../storage/img/camisetas/06.png",
+        "imagen": "./storage/img/camisetas/06.png",
         "categoria": {
             "nombre": "Camisetas",
             "id": "camisetas"
@@ -143,7 +143,7 @@
     {
         "id": "camiseta-07",
         "titulo": "Camiseta 07",
-        "imagen": "../storage/img/camisetas/07.png",
+        "imagen": "./storage/img/camisetas/07.png",
         "categoria": {
             "nombre": "Camisetas",
             "id": "camisetas"
@@ -153,7 +153,7 @@
     {
         "id": "camiseta-08",
         "titulo": "Camiseta 08",
-        "imagen": "../storage/img/camisetas/08.png",
+        "imagen": "./storage/img/camisetas/08.png",
         "categoria": {
             "nombre": "Camisetas",
             "id": "camisetas"
@@ -166,7 +166,7 @@
     {
         "id": "pantalon-01",
         "titulo": "Pantalón 01",
-        "imagen": "../storage/img/pantalones/01.png",
+        "imagen": "./storage/img/pantalones/01.png",
         "categoria": {
             "nombre": "Pantalones",
             "id": "pantalones"
@@ -176,7 +176,7 @@
     {
         "id": "pantalon-02",
         "titulo": "Pantalón 02",
-        "imagen": "../storage/img/pantalones/02.png",
+        "imagen": "./storage/img/pantalones/02.png",
         "categoria": {
             "nombre": "Pantalones",
             "id": "pantalones"
@@ -186,7 +186,7 @@
     {
         "id": "pantalon-03",
         "titulo": "Pantalón 03",
-        "imagen": "../storage/img/pantalones/03.png",
+        "imagen": "./storage/img/pantalones/03.png",
         "categoria": {
             "nombre": "Pantalones",
             "id": "pantalones"
@@ -196,7 +196,7 @@
     {
         "id": "pantalon-04",
         "titulo": "Pantalón 04",
-        "imagen": "../storage/img/pantalones/04.png",
+        "imagen": "./storage/img/pantalones/04.png",
         "categoria": {
             "nombre": "Pantalones",
             "id": "pantalones"
@@ -206,7 +206,7 @@
     {
         "id": "pantalon-05",
         "titulo": "Pantalón 05",
-        "imagen": "../storage/img/pantalones/05.png",
+        "imagen": "./storage/img/pantalones/05.png",
         "categoria": {
             "nombre": "Pantalones",
             "id": "pantalones"
@@ -217,7 +217,7 @@
     {
         "id": "pantalon-06",
         "titulo": "Pantalón 06",
-        "imagen": "../storage/img/pantalones/06.png",
+        "imagen": "./storage/img/pantalones/06.png",
         "categoria": {
             "nombre": "Pantalones",
             "id": "pantalones"
@@ -228,7 +228,7 @@
     {
         "id": "pantalon-07",
         "titulo": "Pantalón 07",
-        "imagen": "../storage/img/pantalones/07.png",
+        "imagen": "./storage/img/pantalones/07.png",
         "categoria": {
             "nombre": "Pantalones",
             "id": "pantalones"
@@ -239,7 +239,7 @@
     {
         "id": "pantalon-08",
         "titulo": "Pantalón 08",
-        "imagen": "../storage/img/pantalones/08.png",
+        "imagen": "./storage/img/pantalones/08.png",
         "categoria": {
             "nombre": "Pantalones",
             "id": "pantalones"
