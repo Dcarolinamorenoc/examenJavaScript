@@ -1,4 +1,19 @@
 {
+  "name": "proyectoexamen-",
+  "version": "1.0.0",
+  "description": "https://hallowed-slug-719.notion.site/F-JS-2-E-COMMERCE-CAMPUSSHOP-86cff123da0d40e39cd315b0f7f3ce3a",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "close" : "fuser -k 5350/tcp",
+    "server" : "json-server ./js/productos.json --port 5350",
+    "start-all": "npm run productos",
+    "dev": "node --watch js/main.js",
+    "productos": "json-server -h 172.16.101.146 js/productos.json -p 5350"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
   "dependencies": {
     "json-server": "^1.0.0-beta.0"
   }
