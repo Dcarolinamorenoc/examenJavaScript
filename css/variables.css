@@ -1,1 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
+
+
+:root{
+    --color-uno: #547aa7;
+    --color-dos: #ffffff;
+    --color-tres: #ececec;
+    --color-cuatro: #e2e2e2;
+    --color-cinco: #961818;
+}

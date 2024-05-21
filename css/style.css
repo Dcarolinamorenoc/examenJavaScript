@@ -1,12 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
+@import url(variables.css);
 
-:root {
-    --clr-main: #547aa7;
-    --clr-main-light: #ffffff;
-    --clr-white: #ececec;
-    --clr-gray: #e2e2e2;
-    --clr-red: #961818;
-}
 
 * {
     margin: 0;
@@ -31,7 +24,7 @@ a {
 .wrapper {
     display: grid;
     grid-template-columns: 1fr 4fr;
-    background-color: var(--clr-main);
+    background-color: var(--color-uno);
 }
 
 .prin{
@@ -57,7 +50,7 @@ a {
 aside {
     padding: 2rem;
     padding-right: 0;
-    color: var(--clr-white);
+    color: var(--color-tres);
     position: sticky;
     top: 0;
     height: 100vh;
@@ -80,7 +73,7 @@ aside {
 .boton-menu {
     background-color: transparent;
     border: 0;
-    color: var(--clr-white);
+    color: var(--color-tres);
     cursor: pointer;
     display: flex;
     align-items: center;
@@ -92,8 +85,8 @@ aside {
 }
 
 .boton-menu.active {
-    background-color: var(--clr-white);
-    color: var(--clr-main);
+    background-color: var(--color-tres);
+    color: var(--color-uno);
     border-top-left-radius: 1rem;
     border-bottom-left-radius: 1rem;
     position: relative;
@@ -108,7 +101,7 @@ aside {
     right: 0;
     background-color: transparent;
     border-bottom-right-radius: .5rem;
-    box-shadow: 0 1rem 0 var(--clr-white);
+    box-shadow: 0 1rem 0 var(--color-tres);
 }
 
 .boton-menu.active::after {
@@ -120,7 +113,7 @@ aside {
     right: 0;
     background-color: transparent;
     border-top-right-radius: .5rem;
-    box-shadow: 0 -1rem 0 var(--clr-white);
+    box-shadow: 0 -1rem 0 var(--color-tres);
 }
 
 .boton-menu > i.bi-hand-index-thumb-fill,
@@ -133,24 +126,24 @@ aside {
 }
 
 .numerito {
-    background-color: var(--clr-white);
-    color: var(--clr-main);
+    background-color: var(--color-tres);
+    color: var(--color-uno);
     padding: .15rem .25rem;
     border-radius: .25rem;
 }
 
 .boton-carrito.active .numerito {
-    background-color: var(--clr-main);
-    color: var(--clr-white);
+    background-color: var(--color-uno);
+    color: var(--color-tres);
 }
 
 .texto-footer {
-    color: var(--clr-main-light);
+    color: var(--color-dos);
     font-size: .85rem;
 }
 
 main {
-    background-color: var(--clr-white);
+    background-color: var(--color-tres);
     margin: 1rem;
     margin-left: 0;
     border-radius: 2rem;
@@ -158,7 +151,7 @@ main {
 }
 
 .titulo-principal {
-    color: var(--clr-main);
+    color: var(--color-uno);
     margin-bottom: 2rem;
 }
 
@@ -174,8 +167,8 @@ main {
 }
 
 .producto-detalles {
-    background-color: var(--clr-main);
-    color: var(--clr-white);
+    background-color: var(--color-uno);
+    color: var(--color-tres);
     padding: .5rem;
     border-radius: 1rem;
     margin-top: -2rem;
@@ -191,19 +184,19 @@ main {
 
 .producto-agregar {
     border: 0;
-    background-color: var(--clr-white);
-    color: var(--clr-main);
+    background-color: var(--color-tres);
+    color: var(--color-uno);
     padding: .4rem;
     text-transform: uppercase;
     border-radius: 2rem;
     cursor: pointer;
-    border: 2px solid var(--clr-white);
+    border: 2px solid var(--color-tres);
     transition: background-color .2s, color .2s;
 }
 
 .producto-agregar:hover {
-    background-color: var(--clr-main);
-    color: var(--clr-white);
+    background-color: var(--color-uno);
+    color: var(--color-tres);
 }
 
 
@@ -217,7 +210,7 @@ main {
 
 .carrito-vacio,
 .carrito-comprado {
-    color: var(--clr-main);
+    color: var(--color-uno);
 }
 
 .carrito-productos {
@@ -230,8 +223,8 @@ main {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: var(--clr-gray);
-    color: var(--clr-main);
+    background-color: var(--color-cuatro);
+    color: var(--color-uno);
     padding: .5rem;
     padding-right: 1.5rem;
     border-radius: 1rem;
@@ -249,7 +242,7 @@ main {
 .carrito-producto-eliminar {
     border: 0;
     background-color: transparent;
-    color: var(--clr-red);
+    color: var(--color-cinco);
     cursor: pointer;
 }
 
@@ -260,10 +253,10 @@ main {
 
 .carrito-acciones-vaciar {
     border: 0;
-    background-color: var(--clr-gray);
+    background-color: var(--color-cuatro);
     padding: 1rem;
     border-radius: 1rem;
-    color: var(--clr-main);
+    color: var(--color-uno);
     text-transform: uppercase;
     cursor: pointer;
 }
@@ -274,9 +267,9 @@ main {
 
 .carrito-acciones-total {
     display: flex;
-    background-color: var(--clr-gray);
+    background-color: var(--color-cuatro);
     padding: 1rem;
-    color: var(--clr-main);
+    color: var(--color-uno);
     text-transform: uppercase;
     border-top-left-radius: 1rem;
     border-bottom-left-radius: 1rem;
@@ -285,9 +278,9 @@ main {
 
 .carrito-acciones-comprar {
     border: 0;
-    background-color: var(--clr-main);
+    background-color: var(--color-uno);
     padding: 1rem;
-    color: var(--clr-white);
+    color: var(--color-tres);
     text-transform: uppercase;
     cursor: pointer;
     border-top-right-radius: 1rem;
@@ -319,7 +312,7 @@ main {
     aside {
         position: fixed;
         z-index: 9;
-        background-color: var(--clr-main);
+        background-color: var(--color-uno);
         left: 0;
         box-shadow: 0 0 0 100vmax rgba(0, 0, 0, .75);
         transform: translateX(-100%);
@@ -357,12 +350,12 @@ main {
     }
 
     .header-mobile .logo {
-        color: var(--clr-gray);
+        color: var(--color-cuatro);
     }
 
     .open-menu, .close-menu {
         background-color: transparent;
-        color: var(--clr-gray);
+        color: var(--color-cuatro);
         border: 0;
         font-size: 2rem;
         cursor: pointer;
